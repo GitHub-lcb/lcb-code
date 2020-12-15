@@ -12,4 +12,10 @@
 	<artifactId>lcb-system</artifactId>
 
 
+	<dependencies>
+		<dependency>
+			<groupId>com.lcb</groupId>
+			<artifactId>lcb-common</artifactId>
+		</dependency>
+	</dependencies>
 </project>
