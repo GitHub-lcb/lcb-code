@@ -14,7 +14,8 @@
         <module>lcb-quartz</module>
         <module>lcb-gen</module>
         <module>lcb-core</module>
-    </modules>
+		<module>lcb-sszg</module>
+	</modules>
 
     <name>lcb</name>
     <url>http://www.lcb.plus</url>

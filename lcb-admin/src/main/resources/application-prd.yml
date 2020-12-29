@@ -1,0 +1,32 @@
+# 生产环境配置
+server:
+  # 服务器的HTTP端口，默认为8080
+  port: 9520
+
+spring:
+  # 数据源配置
+  datasource:
+    druid:
+      # 主库数据源
+      master:
+        url: jdbc:mysql://prd-ip:3306/ry-vue?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+        username: root
+        password: password
+  # redis 配置
+  redis:
+    # 地址
+    host: prd-ip
+    # 端口，默认为6379
+    port: 6389
+    # 密码
+    password: 123456
+
+# 项目相关配置
+lcb:
+  # 文件路径 示例（ Windows配置D:/develop/lcb/uploadPath，Linux配置 /home/lcb/uploadPath）
+  profile: /home/lcb/uploadPath
+
+# Swagger配置
+swagger:
+  # 请求前缀
+  pathMapping: /prd-api
