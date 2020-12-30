@@ -17,7 +17,7 @@ import com.lcb.common.core.domain.AjaxResult;
 import com.lcb.common.utils.StringUtils;
 import com.lcb.common.utils.file.FileUploadUtils;
 import com.lcb.common.utils.file.FileUtils;
-import com.lcb.core.config.ServerConfig;
+import com.lcb.draw.core.config.ServerConfig;
 
 /**
  * 通用请求处理

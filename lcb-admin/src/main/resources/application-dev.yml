@@ -9,17 +9,17 @@ spring:
     druid:
       # 主库数据源
       master:
-        url: jdbc:mysql://localhost:3306/ry-vue?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+        url: jdbc:mysql://129.28.197.114:3307/lcb-code?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
         username: root
-        password: password
+        password: lcb123
   # redis 配置
   redis:
     # 地址
     host: localhost
     # 端口，默认为6379
-    port: 6379
+    port: 6380
     # 密码
-    password:
+    password: lcb123
 
 # 项目相关配置
 lcb:
