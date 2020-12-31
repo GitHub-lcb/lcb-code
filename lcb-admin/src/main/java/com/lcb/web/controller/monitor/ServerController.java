@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.lcb.common.core.domain.AjaxResult;
-import com.lcb.core.web.domain.Server;
+import com.lcb.draw.core.web.domain.Server;
 
 /**
  * 服务器监控
