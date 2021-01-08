@@ -22,8 +22,11 @@ export default {
   },
   methods: {
     click() {
-      if (!screenfull.isEnabled) {
-        this.$message({ message: '你的浏览器不支持全屏', type: 'warning' })
+      if (!screenfull.enabled) {
+        this.$message({
+          message: 'you browser can not work',
+          type: 'warning'
+        })
         return false
       }
       screenfull.toggle()
@@ -32,12 +35,12 @@ export default {
       this.isFullscreen = screenfull.isFullscreen
     },
     init() {
-      if (screenfull.isEnabled) {
+      if (screenfull.enabled) {
         screenfull.on('change', this.change)
       }
     },
     destroy() {
-      if (screenfull.isEnabled) {
+      if (screenfull.enabled) {
         screenfull.off('change', this.change)
       }
     }

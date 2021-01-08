@@ -1,10 +1,5 @@
 module.exports = {
-  title: '若依管理系统',
-
-  /**
-   * 侧边栏主题 深色主题theme-dark，浅色主题theme-light
-   */
-  sideTheme: 'theme-dark',
+  title: '小黑福利后台系统',
 
   /**
    * 是否系统布局配置
